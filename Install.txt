@@ -1,0 +1,28 @@
+
+In order to install the Toolbox please do the following steps :
+
+1) Copy the folder containing this file in the directory of your choice. 
+   If you change the name of the folder please do not put a name with 
+   space in it, for instance 'toolbox_JSR' and not 'toolbox JSR'.
+2) Open Matlab, select File > Set Path...
+   In the window that opens, select button 'Add with Subfolders...'
+   Add the folder. In order not to re-do this at each start of Matlab      
+   click on button 'Save' before clicking on 'Close'.
+
+   Manually you can use, in the command line,
+   >> addpath <pathFolder>    
+   for this folder and its subfolders.
+   In order to save this for further Matlab sessions type
+   >> savepath
+
+3) The Toolbox and its functions should now be available from any
+   directory. 
+   From another directory, type 
+   >> help('<nameOfFolder>')
+   if the names of all the functions are hyperlinks (in blue and
+   underlined) it should have worked properly.
+
+Note : 
+- The Toolbox has been tested on Matlab 2009a and 2010a. Nevertheless
+  it is still a beta version, please report any bug, comment or suggestion
+  to gu.leclercq@gmail.com
